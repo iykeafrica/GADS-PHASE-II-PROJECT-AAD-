@@ -1,2 +1,2 @@
-# GADS-PHASE-II-PROJECT-AAD-
+# GADS-PHASE-II-PROJECT-AAD
 Building a GADS Leader Board Mobile Application
