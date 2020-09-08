@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="leading_learners_name">
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+    </string-array>
+
+    <string-array name="leading_learners_hours">
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+        <item>223 Learning hours, Kenya</item>
+    </string-array>
+
+    <string-array name="skill_iq_learners_name">
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+        <item>John Doe</item>
+    </string-array>
+
+    <string-array name="skill_iq_learners_score">
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+        <item>300 Skill IQ Score, Egypt</item>
+    </string-array>
+
+</resources>
