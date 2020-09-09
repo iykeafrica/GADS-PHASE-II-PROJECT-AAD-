@@ -18,7 +18,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.gadsleaderboard.dialogs.ConfirmationDialog;
 
-public class ProjectSubmissionActivity extends AppCompatActivity {
+public class ProjectSubmissionActivity extends AppCompatActivity{
 
     public static final String FIRST_NAME = "first_name";
     public static final String LAST_NAME = "last_name";
@@ -41,6 +41,11 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         ImageView backArrow = findViewById(R.id.back_arrow);
         mSubmitButton = findViewById(R.id.submit_button);
         mMainContainer = findViewById(R.id.main_container_layout);
+
+        mFirstNameClick();
+        mLastNameClick();
+        mEmailAddressClick();
+        mLinkToProjectClick();
 
         ViewModelProvider viewModelProvider = new ViewModelProvider(getViewModelStore(),
                 ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()));
@@ -69,6 +74,7 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         });
 
     }
+
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
@@ -117,6 +123,42 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         mEmailAddress.setVisibility(View.INVISIBLE);
         mLinkToProject.setVisibility(View.INVISIBLE);
 
+    }
+
+    private void mFirstNameClick() {
+        mFirstName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mFirstName.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mLastNameClick() {
+        mLastName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mLastName.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mEmailAddressClick() {
+        mEmailAddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mEmailAddress.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mLinkToProjectClick() {
+        mLinkToProject.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mLinkToProject.setCursorVisible(true);
+            }
+        });
     }
 
 }
