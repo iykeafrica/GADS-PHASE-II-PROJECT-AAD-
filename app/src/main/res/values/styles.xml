@@ -21,7 +21,7 @@
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-<!--        <item name="android:background">@drawable/app_bar_background</item>-->
+        <!--        <item name="android:background">@drawable/app_bar_background</item>-->
     </style>
 
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
@@ -48,7 +48,7 @@
         <item name="boxStrokeColor">@color/colorWhite</item>
         <item name="boxStrokeWidth">4dp</item>
         <item name="boxBackgroundColor">@color/colorWhiteBackground2</item>
-        <item name="android:textColorHint">@color/colorBlack</item>
+        <item name="hintEnabled">false</item>
         <item name="android:textColor">@color/colorBlack</item>
         <item name="colorPrimary">@color/colorWhite</item>
         <item name="colorPrimaryDark">@color/colorWhite</item>
