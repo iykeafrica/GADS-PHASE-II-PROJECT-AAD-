@@ -43,6 +43,7 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         ImageView backArrow = findViewById(R.id.back_arrow);
         mSubmitButton = findViewById(R.id.submit_button);
         mMainContainer = findViewById(R.id.main_container_layout);
+        mMainContainer.setAlpha(1.0f);
 
         mFirstNameClick();
         mLastNameClick();
@@ -125,11 +126,11 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         bundle.putString(GITHUB_LINK, sLinkToProject);
         dialog.setArguments(bundle);
 
-        mMainContainer.setAlpha(0.8f);
 //        dialog.show(getSupportFragmentManager(), "dialog");
         transaction.replace(R.id.main_container, dialog, "dialog");
         transaction.commit();
 
+        mMainContainer.setAlpha(0.8f);
         mSubmitButton.setVisibility(View.INVISIBLE);
         mFirstName.setVisibility(View.INVISIBLE);
         mLastName.setVisibility(View.INVISIBLE);
