@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -33,6 +34,7 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_project_submission);
+
 
         mFirstName = findViewById(R.id.first_name);
         mLastName = findViewById(R.id.surname);
@@ -58,6 +60,17 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         }
 
         mViewModel.mIsNewlyCreated = false;
+
+        Fragment prev = getSupportFragmentManager().findFragmentByTag("dialog");
+        if (prev != null) {
+            mMainContainer.setAlpha(0.8f);
+            mSubmitButton.setVisibility(View.INVISIBLE);
+            mFirstName.setVisibility(View.INVISIBLE);
+            mLastName.setVisibility(View.INVISIBLE);
+            mEmailAddress.setVisibility(View.INVISIBLE);
+            mLinkToProject.setVisibility(View.INVISIBLE);
+        }
+
 
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
