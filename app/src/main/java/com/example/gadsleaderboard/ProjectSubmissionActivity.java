@@ -1,5 +1,6 @@
 package com.example.gadsleaderboard;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
@@ -41,6 +43,7 @@ public class ProjectSubmissionActivity extends AppCompatActivity{
         ImageView backArrow = findViewById(R.id.back_arrow);
         mSubmitButton = findViewById(R.id.submit_button);
         mMainContainer = findViewById(R.id.main_container_layout);
+        mMainContainer.setAlpha(1.0f);
 
         mFirstNameClick();
         mLastNameClick();
@@ -57,6 +60,16 @@ public class ProjectSubmissionActivity extends AppCompatActivity{
         }
 
         mViewModel.mIsNewlyCreated = false;
+
+        Fragment prev = getSupportFragmentManager().findFragmentByTag("dialog");
+        if (prev != null) {
+            mMainContainer.setAlpha(0.8f);
+            mSubmitButton.setVisibility(View.INVISIBLE);
+            mFirstName.setVisibility(View.INVISIBLE);
+            mLastName.setVisibility(View.INVISIBLE);
+            mEmailAddress.setVisibility(View.INVISIBLE);
+            mLinkToProject.setVisibility(View.INVISIBLE);
+        }
 
         mSubmitButton.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.M)
