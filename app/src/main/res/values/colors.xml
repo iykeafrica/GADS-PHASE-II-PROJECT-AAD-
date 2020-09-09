@@ -14,5 +14,7 @@
     <color name="colorWhiteBackground2">#f5f5f5</color>
     <color name="colorAsh">#c1bfbc</color>
     <color name="colorAsh2">#b3b3a2</color>
-    <color name="colorAsh3">#707065</color>
+    <color name="colorAsh3">#757575</color>
+    <color name="colorAsh4">#4e4e4c</color>
+    <color name="colorAsh5">#eeeeee</color>
 </resources>
