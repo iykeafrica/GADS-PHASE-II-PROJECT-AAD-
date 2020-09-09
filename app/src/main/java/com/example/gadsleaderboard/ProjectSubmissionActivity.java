@@ -42,6 +42,12 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         mSubmitButton = findViewById(R.id.submit_button);
         mMainContainer = findViewById(R.id.main_container_layout);
 
+        mFirstNameClick();
+        mLastNameClick();
+        mEmailAddressClick();
+        mLinkToProjectClick();
+
+
         ViewModelProvider viewModelProvider = new ViewModelProvider(getViewModelStore(),
                 ViewModelProvider.AndroidViewModelFactory.getInstance(getApplication()));
 
@@ -118,5 +124,42 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         mLinkToProject.setVisibility(View.INVISIBLE);
 
     }
+
+    private void mFirstNameClick() {
+        mFirstName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mFirstName.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mLastNameClick() {
+        mLastName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mLastName.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mEmailAddressClick() {
+        mEmailAddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mEmailAddress.setCursorVisible(true);
+            }
+        });
+    }
+
+    private void mLinkToProjectClick() {
+        mLinkToProject.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mLinkToProject.setCursorVisible(true);
+            }
+        });
+    }
+
 
 }
