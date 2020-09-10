@@ -76,7 +76,7 @@ public class ConfirmationDialog extends Fragment {
                 getActivity().findViewById(R.id.email).setVisibility(View.VISIBLE);
                 getActivity().findViewById(R.id.github_link).setVisibility(View.VISIBLE);
                 getActivity().findViewById(R.id.submit_button).setVisibility(View.VISIBLE);
-                getActivity().findViewById(R.id.main_container).setAlpha(1.0f);
+                getActivity().findViewById(R.id.main_container_layout).setAlpha(1.0f);
 
 //                getDialog().dismiss();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
@@ -133,7 +133,7 @@ public class ConfirmationDialog extends Fragment {
             @Override
             public void onFailure(Call<Void> call, Throwable t) {
                 //Toast.makeText(getActivity(), "" + t.getMessage(), Toast.LENGTH_SHORT).show();
-                Log.i("Response", "Checking:Error" + t.getMessage());
+                Log.i("Response", "Checking:Error " + t.getMessage());
 
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 Fragment prev = getFragmentManager().findFragmentByTag("dialog");
