@@ -43,7 +43,6 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
         ImageView backArrow = findViewById(R.id.back_arrow);
         mSubmitButton = findViewById(R.id.submit_button);
         mMainContainer = findViewById(R.id.main_container_layout);
-        mMainContainer.setAlpha(1.0f);
 
         mFirstNameClick();
         mLastNameClick();
