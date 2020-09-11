@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProjectSubmissionActivity"></activity>
+        <activity android:name=".ProjectSubmissionActivity"
+            android:screenOrientation = "portrait">
+
+        </activity>
 
         <activity android:name=".SplashActivity">
             <intent-filter>

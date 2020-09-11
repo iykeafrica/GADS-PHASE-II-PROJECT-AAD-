@@ -33,7 +33,7 @@ public class ProjectSubmissionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project_submission);
+        setContentView(R.layout.sample_background);
 
 
         mFirstName = findViewById(R.id.first_name);
