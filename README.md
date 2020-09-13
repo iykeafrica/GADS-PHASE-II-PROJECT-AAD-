@@ -5,3 +5,6 @@ This project implements a mobile design of the GADS leader board. It displays th
 
 Check out the project flow designs.
 ![Image description](https://github.com/iykeafrica/GADS-PHASE-II-PROJECT-AAD-/issues/1)
+
+1. Splash Screen
+![Splash Screen] (https://user-images.githubusercontent.com/54163350/92422020-4f2b6b00-f173-11ea-9595-20bb77229243.png)
